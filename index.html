@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iNaturalist Search</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <h1>iNaturalist Species Search</h1>
+    <form id="search-form">
+        <label for="place">Search for a place:</label>
+        <input type="text" id="place" name="place" placeholder="Enter a place name..." required>
+
+        <button type="submit">Search</button>
+        <ul id="suggestions"></ul>
+    </form>
+    <div id="results"></div>
+
+    <script src="./src/main.js"></script>
+</body>
+</html>
